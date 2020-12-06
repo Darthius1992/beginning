@@ -1,161 +1,233 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя таблица тегов и атрибутов</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моя таблица тегов и атрибутов</title>
 </head>
+
 <body>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Теги</th>
-                <th>Атрибуты</th>
-                <th>Описание</th>
-                <th>Пример</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>&lt;p&gt;</td>
-                <td> - </td>
-                <td>Параграф</td>
-            </tr>
-                <tr>
-                <td>&lt;ul&gt;</td>
-                <td>-</td>
-                <td>Маркированный список</td>
-                <tr>
-                    <td>&lt;li&gt;</td>
-                    <td>-</td>
-                    <td>Элемент списка</td>
-                </tr>
-                <tr>
-                    <td>&lt;ol&gt;</td>
-                    <td>-</td>
-                    <td>Нумерованный список</td>
-                </tr>
-                <tr>
-                    <td>-</td>
-                    <td>&lt;title&gt;</td>
-                    <td>Всплывающий блок</td>
-                </tr>
-                <tr>
-                    <td>-</td>
-                    <td>align="center,right"</td>
-                    <td>Выравние текста по центру или справа</td>
-                </tr>
-                <tr>
-                    <td>&lt;b&gt;</td>
-                    <td>-</td>
-                    <td>Жирное выделение текста</td>
-                </tr>
-                <tr>
-                    <td>&lt;strong&gt;</td>
-                    <td>-</td>
-                    <td>Логическое,жирное выделение текста</td>
-                </tr>
-                <tr>
-                <td>&lt;i&gt;</td>
-                <td>-</td>
-                <td>Курсивное выделение текста</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;em&gt;</td>
-                     <td>-</td>
-                     <td>Логическое,курсивное выделение текста</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;h1-h6&gt;</td>
-                     <td>-</td>
-                     <td>Заголовки</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;table&gt;</td>
-                     <td>-</td>
-                     <td>Граница таблицы</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;tr&gt;</td>
-                     <td>-</td>
-                     <td>Создание строки таблицы</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;thead&gt;</td>
-                     <td>-</td>
-                     <td>Шапка таблицы</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;td&gt;</td>
-                     <td>-</td>
-                     <td>Создание ячейки</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;th&gt;</td>
-                     <td>-</td>
-                     <td>Создание ячейки с заголовком</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;tbody</td>
-                     <td>-</td>
-                     <td>Тело странцы</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;tfoot&gt;</td>
-                     <td>-</td>
-                     <td>Подвал таблицы</td>
-                 </tr>
-                 <tr>
-                     <td>-</td>
-                     <td>&lt;colspan&gt;</td>
-                     <td>Обьединие ячейки по горизонтали</td>
-                 </tr>
-                 <tr>
-                     <td>-</td>
-                     <td>&lt;rowspan&gt;</td>
-                     <td>Обьедние ячеек по вертикали</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;a&gt;</td>
-                     <td>href=""</td>
-                     <td>Указание страницы на переход</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;a href="#"&gt;</td>
-                     <td>&lt;id="#"&gt;</td>
-                     <td>Ссылка-якорь</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;pre&gt;</td>
-                     <td>&lt;b,i,em,strong&gt;</td>
-                     <td>Сохрание текста со всеми пробелами</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;code&gt;</td>
-                     <td>-</td>
-                     <td>Вставка кода в текст</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;span&gt;</td>
-                     <td>-</td>
-                     <td>Вставка текста(не розбрался полностью)</td>
-                 </tr>
-                 <tr>
-                     <td>&lt;img&gt;</td>
-                     <td>src="" alt=""</td>
-                     <td>Вставка картинки</td>
-                     <td>&lt;img src="https://example.com/images.png" alt="Аналитика компании за 2007 год"&gt;</td>
-                 </tr>
-                 <tr>
-                     <td>-</td>
-                     <td>src=""</td>
-                     <td>Указывает путь картинки</td>
-                 </tr>
+  <!-- Таблица тегов и атрибутов html5 -->
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Теги</th>
+        <th>Атрибуты</th>
+        <th>Описание</th>
+        <th>Пример</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;p&gt;</td>
+        <td> - </td>
+        <td>Параграф</td>
+      </tr>
+      <tr>
+        <td>&lt;ul&gt;</td>
+        <td>-</td>
+        <td>Маркированный список</td>
+      <tr>
+        <td>&lt;li&gt;</td>
+        <td>-</td>
+        <td>Элемент списка</td>
+      </tr>
+      <tr>
+        <td>&lt;ol&gt;</td>
+        <td>-</td>
+        <td>Нумерованный список</td>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td>&lt;title&gt;</td>
+        <td>Всплывающий блок</td>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td>align="center,right"</td>
+        <td>Выравние текста по центру или справа</td>
+      </tr>
+      <tr>
+        <td>&lt;b&gt;</td>
+        <td>-</td>
+        <td>Жирное выделение текста</td>
+      </tr>
+      <tr>
+        <td>&lt;strong&gt;</td>
+        <td>-</td>
+        <td>Логическое,жирное выделение текста</td>
+      </tr>
+      <tr>
+        <td>&lt;i&gt;</td>
+        <td>-</td>
+        <td>Курсивное выделение текста</td>
+      </tr>
+      <tr>
+        <td>&lt;em&gt;</td>
+        <td>-</td>
+        <td>Логическое,курсивное выделение текста</td>
+      </tr>
+      <tr>
+        <td>&lt;h1-h6&gt;</td>
+        <td>-</td>
+        <td>Заголовки</td>
+      </tr>
+      <tr>
+        <td>&lt;table&gt;</td>
+        <td>-</td>
+        <td>Граница таблицы</td>
+      </tr>
+      <tr>
+        <td>&lt;tr&gt;</td>
+        <td>-</td>
+        <td>Создание строки таблицы</td>
+      </tr>
+      <tr>
+        <td>&lt;thead&gt;</td>
+        <td>-</td>
+        <td>Шапка таблицы</td>
+      </tr>
+      <tr>
+        <td>&lt;td&gt;</td>
+        <td>-</td>
+        <td>Создание ячейки</td>
+      </tr>
+      <tr>
+        <td>&lt;th&gt;</td>
+        <td>-</td>
+        <td>Создание ячейки с заголовком</td>
+      </tr>
+      <tr>
+        <td>&lt;tbody</td>
+        <td>-</td>
+        <td>Тело странцы</td>
+      </tr>
+      <tr>
+        <td>&lt;tfoot&gt;</td>
+        <td>-</td>
+        <td>Подвал таблицы</td>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td>&lt;colspan&gt;</td>
+        <td>Обьединие ячейки по горизонтали</td>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td>&lt;rowspan&gt;</td>
+        <td>Обьедние ячеек по вертикали</td>
+      </tr>
+      <tr>
+        <td>&lt;a&gt;</td>
+        <td>href=""</td>
+        <td>Указание страницы на переход</td>
+      </tr>
+      <tr>
+        <td>&lt;a href="#"&gt;</td>
+        <td>&lt;id="#"&gt;</td>
+        <td>Ссылка-якорь</td>
+      </tr>
+      <tr>
+        <td>&lt;pre&gt;</td>
+        <td>&lt;b,i,em,strong&gt;</td>
+        <td>Сохрание текста со всеми пробелами</td>
+      </tr>
+      <tr>
+        <td>&lt;code&gt;</td>
+        <td>-</td>
+        <td>Вставка кода в текст</td>
+      </tr>
+      <tr>
+        <td>&lt;span&gt;</td>
+        <td>-</td>
+        <td>Вставка текста(не розбрался полностью)</td>
+      </tr>
+      <tr>
+        <td>&lt;img&gt;</td>
+        <td>src="" alt=""</td>
+        <td>Вставка картинки</td>
+        <td>&lt;img src="https://example.com/images.png" alt="Аналитика компании за 2007 год"&gt;</td>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td>src=""</td>
+        <td>Указывает путь картинки</td>
+      </tr>
 
 
 
-            
-        </tbody>
-    </table>
+
+
+    </tbody>
+  </table>
+  <!-- Таблица команд github и emmit -->
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Команды github</th>
+        <th>Команды emmet</th>
+        <th>Описание</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>git init</td>
+        <td></td>
+        <td>Инициализирует пустой репозиторий</td>
+      </tr>
+      <tr>
+        <td>git add .</td>
+        <td></td>
+        <td>Добавляет все файлы в отслеживаемые</td>
+      </tr>
+      <tr>
+        <td>git commit -m "название"</td>
+        <td></td>
+        <td>Делает каммит с названием</td>
+      </tr>
+      <tr>
+        <td>git commit -m -a "Название коммита"</td>
+        <td></td>
+        <td>Ключ а добавляет файлы в отслеживаемые</td>
+      </tr>
+      <tr>
+        <td>git checkout branch или -b "Название ветки"</td>
+        <td></td>
+        <td>Создание ветки</td>
+      </tr>
+      <tr>
+        <td>git add remote origin "название ветки" путь к удаленному репозиторию</td>
+        <td></td>
+        <td>Подключение к удаленному репозиторию</td>
+      </tr>
+      <tr>
+        <td>git push -u origin /"название ветки"</td>
+        <td></td>
+        <td>как запушить коммит на сервер</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </body>
+
 </html>
